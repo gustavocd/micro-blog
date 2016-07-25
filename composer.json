@@ -1,0 +1,19 @@
+{
+  "name": "gustavo/micro-blog",
+  "description": "Basic blog using Slim framework",
+  "authors": [
+    {
+      "name": "Gustavo Castillo",
+      "email": "gustavocastillo1993@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Blog\\": "app/"
+    }
+  },
+  "require": {
+    "slim/slim": "^3.4",
+    "slim/twig-view": "^2.1"
+  }  
+}
